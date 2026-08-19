@@ -3,11 +3,13 @@ package com.library.libraryapp.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 public class BookDTO {
 
     private String id;
