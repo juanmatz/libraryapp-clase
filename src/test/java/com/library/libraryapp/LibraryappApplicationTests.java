@@ -14,7 +14,7 @@ class LibraryappApplicationTests {
 	void contextLoads() {
 		Calcular clc = new Calcular();
 		double resultado = clc.sumar(5.0,5.0);
-		assertEquals(10.0,resultado);
+		assertEquals(100.0,resultado);
 	}
 	
 
